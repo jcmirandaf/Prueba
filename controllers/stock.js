@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   getStock: () => {
     // Ruta al archivo Excel
-    const filePath = path.join(__dirname, '../data/stock.xlsx');
+    const filePath = path.join(__dirname, '../data/Inventario-Perfumes.xlsx');
 
     // Leer el archivo
     const workbook = xlsx.readFile(filePath);
