@@ -4,7 +4,7 @@ const app = express();
 
 // Ruta GET sencilla
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Ludovico!');
 });
 
 // Ruta GET sencilla
